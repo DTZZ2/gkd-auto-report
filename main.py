@@ -50,7 +50,7 @@ def submit(s: requests.Session):
         "area": "怀柔区",
         "province": "北京市",
         "city": "",
-        "geo_api_info": "{\"address\":\"北京市怀柔区\",\"details\":\"怀北镇中国科学院大学雁栖湖校区公寓中国科学院大学雁栖湖校区西区\",\"province\":{\"label\":\"北京市\",\"value\":\"\"},\"city\":{\"label\":\"\",\"value\":\"\"},\"area\":{\"label\":\"怀柔区\",\"value\":\"\"}}",
+        "geo_api_info": "{\"address\":\"北京市怀柔区\",\"details\":\"怀北镇中国科学院大学雁栖湖校区公寓中国科学院大学雁栖湖校区东区\",\"province\":{\"label\":\"北京市\",\"value\":\"\"},\"city\":{\"label\":\"\",\"value\":\"\"},\"area\":{\"label\":\"怀柔区\",\"value\":\"\"}}",
         "szgj_api_info": "{\"area\":{\"label\":\"\",\"value\":\"\"},\"city\":{\"label\":\"\",\"value\":\"\"},\"address\":\"\",\"details\":\"\",\"province\":{\"label\":\"\",\"value\":\"\"}}",
         "szgj_select_info": {},
         #
@@ -88,11 +88,11 @@ def submit(s: requests.Session):
         # "created_uid":"0",
         # "todaysfhsjc":"",
         # "is_daily":1,
-        "geo_api_infot": "{\"address\":\"北京市怀柔区\",\"details\":\"怀北镇中国科学院大学雁栖湖校区公寓中国科学院大学雁栖湖校区西区\",\"province\":{\"label\":\"北京市\",\"value\":\"\"},\"city\":{\"label\":\"\",\"value\":\"\"},\"area\":{\"label\":\"怀柔区\",\"value\":\"\"}}",
+        "geo_api_infot": "{\"address\":\"北京市怀柔区\",\"details\":\"怀北镇中国科学院大学雁栖湖校区公寓中国科学院大学雁栖湖校区东区\",\"province\":{\"label\":\"北京市\",\"value\":\"\"},\"city\":{\"label\":\"\",\"value\":\"\"},\"area\":{\"label\":\"怀柔区\",\"value\":\"\"}}",
 
         # yesterday information
         "old_szdd": "国内",
-        "old_city": "{\"address\":\"北京市怀柔区\",\"details\":\"怀北镇中国科学院大学雁栖湖校区公寓中国科学院大学雁栖湖校区西区\",\"province\":{\"label\":\"北京市\",\"value\":\"\"},\"city\":{\"label\":\"\",\"value\":\"\"},\"area\":{\"label\":\"怀柔区\",\"value\":\"\"}}",
+        "old_city": "{\"address\":\"北京市怀柔区\",\"details\":\"怀北镇中国科学院大学雁栖湖校区公寓中国科学院大学雁栖湖校区东区\",\"province\":{\"label\":\"北京市\",\"value\":\"\"},\"city\":{\"label\":\"\",\"value\":\"\"},\"area\":{\"label\":\"怀柔区\",\"value\":\"\"}}",
     }
 
     r = s.post("https://app.ucas.ac.cn/ucasncov/api/default/save", data=new_daily)
